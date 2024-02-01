@@ -420,6 +420,7 @@ color: black;
     background-color: antiquewhite;
     margin-bottom: 20px;
     
+    
 }
 .contact img{
     width: 70px;
@@ -430,6 +431,7 @@ color: black;
     padding: 20px;
     border-radius: 7px;
     width: 150px;
+    margin-left: 20px;
 }
 .facedar:hover,.faceslam:hover,.youeslam:hover,.whatseslame:hover{
     background-color:antiquewhite ;
