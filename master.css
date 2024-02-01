@@ -1,5 +1,5 @@
-
-body{
+@media(min-width:1000px){
+            body{
     font-family: Arial, Helvetica, sans-serif;
 }
 html {
@@ -19,40 +19,7 @@ header{
     text-align: center;
 }
 
-@media(max-width:768px){
-    header{
-        padding: 5px;
-        position: sticky;
-        top: 0;
-        z-index: 999;
-    }
-     ul li a{
-        font-size: 5px;
-     }
-     header img.logo{
-        width: 50px;
-     }
-     .content{
-        width: 700px;
-        
-     }
-     .title{
-        font-size: 15px;
-        margin-bottom: 10px;
-     }
-     .first{
-        text-align: center;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-     }
-     .first img{
-        display: none;
-     }
- 
-  
-    
-}
+
 
 header img.logo{
     height: 70px;
@@ -249,7 +216,7 @@ nav ul li {
             border-radius: 10px;
             transition: 0.5s;
         }
-      */
+      
 
         #check1:checked ~ .gallery .photo-gallary .pic{
             opacity: 1;
@@ -433,25 +400,7 @@ color: black;
     font-size: 20px;
 }
 
-@media(max-width:768px){
-    .cards{
-        text-align: center;
-        width: 700px;
-    }
-    .container{
-        text-align: center;
-        margin-right: 250px;
-    }
-    .title_card .container{
-        width: 200px;
-        display: flex;
-        justify-content: space-between;
-    }
-    .cards-top{
-        width:700px ;
-    }
-  
-}
+
 
 /* end card  */
 /*******************************************************************************************************/
@@ -459,27 +408,6 @@ color: black;
 
 
 
-/* startcontact */
-
-@media(max-width:768px){
-    .contacts{
-        width: 700px;
-        text-align: center;
-        margin-right: 10px;
-        padding-right: 15px;
-    }
-        .contact{
-            flex-direction: column;
-            text-align: center;
-            padding: 10px;
-        }
-        .facedar,.faceslam,.youeslam,.whatseslame{
-            width: 50px;
-            margin-bottom: 50px;
-            padding-left: 200px;
-      
-        }
-}
 .contacts{
     width: 100%;
     text-align: center;
@@ -543,6 +471,7 @@ p.footer a:hover{
     color: white;
     border-radius: 5px;
 }
+}
 
 
 
@@ -553,42 +482,4 @@ p.footer a:hover{
 
 
 
-   /* .photo-gallary .pic::before{
-            content: "دار الفتح";
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50% , -50%);
-            color: white;
-            font-size: 30px;
-            font-weight: bold;
-             width: 100%;
-            margin-top: -100px ;
-             /* opacity: 0; */
-             /* transition: .3s;
-            transition-delay: 0.2s; 
-                        z-index: 1;
 
-        } */ 
-        
-        /* .photo-gallary .pic:after{
-            content: "";
-            position: absolute;
-            width: 100%;
-            bottom: 0;
-            left: 0;
-            border-radius: 10px;
-            height: 0;
-            background-color: rgb(0, 0, 0,  0.4);
-            transition: 0.3;
-        } */
-        
-
-        /* .photo-gallary .pic:hover::after{
-            height: 100%;
-        } */
-        /*
-        .photo-gallary .pic:hover::before{
-            margin-top: 0;
-            opacity: 1;
-        }
