@@ -200,9 +200,8 @@ body{
 
 .cards-top .project-card .project-img img{
     text-align: center;
-    width : 80%;
+    width : 90%;
     padding: 10px 10px 0;
-    margin: 0 10% 5% ;
 }
 
 .cards-top .project-card .project-info{
