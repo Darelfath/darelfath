@@ -214,7 +214,14 @@ body{
     padding-bottom: 5px;
     font-size: small;
 }
-
+.cards .project-card .project-info .category{
+    font-size: 25px;
+    color: rgb(0, 0, 161);
+        font-weight: bold;
+}
+.cards .project-card .project-info p{
+    color: red;
+}
 /* Archiv */
 .gallery {
        text-align: center;
