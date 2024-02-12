@@ -5,6 +5,9 @@
     font-family:"formalhead" ;
     src: url("/fonts/Tajawal-Bold.ttf");
 }
+html {
+  scroll-behavior: smooth;
+}
         header{
             text-align: center;
             position: sticky;
